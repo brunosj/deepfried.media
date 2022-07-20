@@ -13,6 +13,43 @@ html {
   scroll-behavior: smooth;
   margin: none;
 }
+
+.header {
+  height: 4rem;
+  display: flex;
+  width: 100%;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  max-width: 90%;
+  margin: auto;
+}
+
+.imageWrapper {
+  height: 100%;
+}
+
+.logo {
+  height: 4rem;
+  width: 3rem;
+}
+
+.contact {
+  color: white;
+  font-family: monospace;
+}
+
+.contactLink {
+  color: white;
+}
+
+.contactLink:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
